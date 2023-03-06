@@ -33,7 +33,7 @@ h1 {
 }
 
 h2 {
-  font-size: 5.1em;
+  font-size: 3.1em;
   line-height: 1em;
   letter-spacing: .03em;
   margin-bottom: 2px;
@@ -55,24 +55,36 @@ h4 {
 }
 
 p {
-  font-size: .9em;
-  line-height: 1.8em;
-  letter-spacing: .103em;
-  margin-bottom: 15px;
+  font-size: .5em;
+  line-height: 1.5em;
+  letter-spacing: .101em;
+  margin-bottom: 10px;
 }
 
-span {
+#Okemwa {display: inline-block;
+  font-size: 1em;
+  line-height: 1em;
+  letter-spacing: .35em;
+  vertical-align: top;
+  padding-top: 10px;
+  text-align: left;
+
+
+}
+#Kerama {
   display: inline-block;
   font-size: 1em;
   line-height: 1em;
   letter-spacing: .35em;
   vertical-align: top;
   padding-top: 10px;
+  text-align: right;
 }
 
 img {
   display: inline-block;
   margin: 0 40px;
+  align-self: center;
 }
 
 .wrapper {
